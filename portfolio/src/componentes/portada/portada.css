@@ -1,5 +1,15 @@
 @import url('https://fonts.googleapis.com/css?family=Special+Elite|Viga');
 
+.container{
+  height: 100vh;
+  width: 100vw;
+  background: black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
   .text{
     display: inline-block;
     font-size: 10vmin;

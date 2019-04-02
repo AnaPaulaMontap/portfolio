@@ -3,14 +3,13 @@
 
 .menu{
     position: absolute;
-    font-size: 12px;
     top: 0;
-    right: 0;
-    margin: 1.5% 2%;
+    left: 0;
     color: white;
-    font-family: 'Russo One', sans-serif;
-    font-size: 30px;
     text-decoration: none;
+    background: black;
+    z-index: 3;
+    padding: 2%;
   }
 
   .optionMenu{
@@ -20,6 +19,7 @@
       text-decoration: none;
       font-size: 50px;
       text-align: center;
+      background: none;
   }
   .optionMenu:hover{
       background-color: #0b4242;
@@ -28,8 +28,8 @@
 
   .menuHeader{
   width: 100%;
-  background-color: rgb(25,25,25);
-  margin: 1.5% 1.5%;
+  background-color: #08090a;
+  margin: 1% 1%;
   min-height: 94vh;
   display: flex;
   flex-direction: column;
@@ -37,4 +37,8 @@
   justify-content: center;  
   color: white;
   font-weight: bolder;
+  }
+
+  .logo{
+      width: 150px;
   }

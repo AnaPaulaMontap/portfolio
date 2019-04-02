@@ -33,15 +33,15 @@ class Portada extends Component {
 		return <div className="container">								
 					
 
-                    <p class="text"> 
-                    <span class="text__first">
-                    <span class="text__word" ref={ span => this.word1 = span }> Ana Paula Monsalve </span>
-                    <span class="text__first-bg" ref={ span => this.firstBg = span}></span>
+                    <p className="text"> 
+                    <span className="text__first">
+                    <span className="text__word" ref={ span => this.word1 = span }> Ana Paula Monsalve Tapia</span>
+                    <span className="text__first-bg" ref={ span => this.firstBg = span}></span>
                     </span>
                     <br/>
-                    <span class="text__second">
-                    <span class="text__word" ref={ span => this.word = span }>FrontEnd Developer</span>
-                    <span class="text__second-bg"ref={ span => this.secBg = span}></span>
+                    <span className="text__second">
+                    <span className="text__word" ref={ span => this.word = span }>FrontEnd Developer</span>
+                    <span className="text__second-bg"ref={ span => this.secBg = span}></span>
                     </span>
                     </p>
 

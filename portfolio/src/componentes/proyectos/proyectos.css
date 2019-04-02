@@ -1,0 +1,20 @@
+.SplitPane {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  
+  
+  .SplitPane-left {
+    float: left;
+    width: 40%;
+    background: rgb(25,25,25);
+    text-align: center
+  }
+  
+  .SplitPane-right {
+    float: left;
+    width: 60%;
+    background: #fcfcfc;
+    text-align: center;
+  }

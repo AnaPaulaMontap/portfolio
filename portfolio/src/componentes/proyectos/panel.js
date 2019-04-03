@@ -11,7 +11,7 @@ class Panel extends React.Component {
 					style={this.props.buttonStyle}
 					onMouseEnter={this.props._buttonColour}
 					onMouseLeave={this.props._buttonColour}>
-					Read More
+					Conocer Más
 				</button>
 			</aside>
 		);

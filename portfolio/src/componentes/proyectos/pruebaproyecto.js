@@ -15,11 +15,12 @@ class Proyectos extends React.Component {
 				backgroundImage: `url('${this.props.data[0].img}')`
 			},
 			panelStyle: {
-				background: this.props.data[0].colour
+				background: this.props.data[0].colour,
+				color:this.props.data[0].textColor
 			},
 			buttonHover: false,
 			buttonStyle: {
-				color: '#ffffff'
+				color: this.props.data[0].textColor
             },
         };
        
@@ -28,16 +29,22 @@ class Proyectos extends React.Component {
 		this.setState({
 			activeID: id,
 			wrapperStyle: {
-                //  backgroundImage: `image('${this.props.data[id].img}')`
+				backgroundImage: `url('${this.props.data[id].img}')`,
+				
                 // backgroundImage: this.props.data[id].img
-                backgroundColor: 'black'
+                //backgroundColor: 'black'
 			},
 			panelStyle: {
-				backgroundColor: this.props.data[id].colour
+				backgroundColor: this.props.data[id].colour,
+				color:this.props.data[id].textColor
+			},
+			buttonStyle: {
+				color: this.props.data[id].textColor
 			}
+			
 		});
 	}
-	_buttonColour() {
+	_buttonColour(id) {
 		if(!this.state.buttonHover){
 			this.setState({
 				buttonHover: true,
@@ -47,9 +54,10 @@ class Proyectos extends React.Component {
 			});
 		} else {
 			this.setState({
+				activeID: id,
 				buttonHover: false,
 				buttonStyle: {
-					color: '#ffffff'
+					color: this.props.data[id].textColor
 				}
 			});
 		}

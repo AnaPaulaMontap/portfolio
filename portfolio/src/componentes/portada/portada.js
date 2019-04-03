@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { TimelineLite} from "gsap/all";
+import {TimelineLite} from "gsap";
 import './portada.css'
 
 
@@ -17,7 +17,7 @@ class Portada extends Component {
 	}
 
 	// add instances to the timeline
-	componentDidUpdate(){
+	componentDidMount(){
         this.logoTl
         
     .to(this.firstBg, 0.2, {scaleX:1})

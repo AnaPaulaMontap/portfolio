@@ -2,8 +2,10 @@
   "name": "portfolio",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://anapaulamontap.github.io/portfolio",
   "dependencies": {
     "aos": "^2.3.4",
+    "gh-pages": "^2.0.1",
     "gsap": "^2.1.2",
     "react": "^16.8.5",
     "react-dom": "^16.8.5",
@@ -12,6 +14,8 @@
     "react-scripts": "2.1.8"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",

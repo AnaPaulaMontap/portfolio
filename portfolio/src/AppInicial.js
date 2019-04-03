@@ -3,7 +3,8 @@ import React from "react";
 import ReactPageScroller from "react-page-scroller";
 import Portada from "./componentes/portada/portada"
 import SobreMi from "./componentes/sobremi/sobremi"
-import NavbarContenido from "./componentes/navbar/navbarContenido"
+import Proyectos from "./componentes/proyectos/pruebaproyecto"
+import data from './componentes/proyectos/data'
 
 import './AppInicial.css'
 
@@ -32,11 +33,15 @@ export default class App extends React.Component {
         return <div className="section">
         
         <ReactPageScroller ref={c => this._pageScroller = c} pageOnChange={this.pageOnChange}
-                           containerWidth={window.innerWidth * 0.95} containerHeight={window.innerHeight * 0.95}>  
-            <Portada/>
-          <SobreMi/>
-          <NavbarContenido/>
+                           containerWidth={window.innerWidth * 0.96} containerHeight={window.innerHeight * 0.96}>  
+        <Portada/>
+        <SobreMi/> 
+        <Proyectos data={data}/>      
         </ReactPageScroller>
+       
+        
+        
+        
         
 </div>
        

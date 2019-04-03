@@ -1,16 +1,20 @@
 import React from 'react';
+import './proyectos.css'
 
 
 function Proyectos () {
 
     return (
-        <div className="SplitPane" data-aos="fade-right">
-        <div className="SplitPane-left" >
-          
+        <div className="containerProyectos">
+        <div className="projectLeft" >
+        <span>fotito</span>
+          <p>nombre del proyecto</p>
+          <p>contenido del proyecto</p>
         </div>
-        <div className="SplitPane-right" data-aos="fade-right">
-          
-         
+        <div className="projectRight">
+            <span>fotito</span>
+          <p>nombre del proyecto</p>
+          <p>contenido del proyecto</p>
         </div>
       </div>
 

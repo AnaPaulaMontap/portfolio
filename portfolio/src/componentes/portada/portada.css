@@ -3,7 +3,7 @@
 .container{
   height: 100vh;
   width: 100vw;
-  background: black;
+  background: #f2f3d9;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -15,7 +15,7 @@
     font-size: 10vmin;
     line-height: 1.205;
     font-family: 'Special Elite', cursive;
-    color: #fcfcfc;
+    color: black;
     
   }
   

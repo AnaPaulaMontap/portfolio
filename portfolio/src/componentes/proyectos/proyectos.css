@@ -1,20 +1,22 @@
-.SplitPane {
+.containerProyectos {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    min-height: 95vh;
   }
   
   
-  .SplitPane-left {
+  .projectLeft{
     float: left;
-    width: 40%;
-    background: rgb(25,25,25);
-    text-align: center
-  }
-  
-  .SplitPane-right {
-    float: left;
-    width: 60%;
-    background: #fcfcfc;
+    width: 50%;
+    background: #002522;
     text-align: center;
   }
+  
+  .projectRight {
+    float: left;
+    width: 50%;
+    background:#d8d6d9;
+    text-align: center;
+  }
+ 

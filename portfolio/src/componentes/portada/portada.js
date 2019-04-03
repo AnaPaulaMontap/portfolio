@@ -17,7 +17,7 @@ class Portada extends Component {
 	}
 
 	// add instances to the timeline
-	componentDidMount(){
+	componentDidUpdate(){
         this.logoTl
         
     .to(this.firstBg, 0.2, {scaleX:1})

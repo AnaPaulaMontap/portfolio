@@ -4,7 +4,6 @@
   "private": true,
   "homepage": "https://anapaulamontap.github.io/portfolio",
   "dependencies": {
-    "aos": "^2.3.4",
     "gh-pages": "^2.0.1",
     "gsap": "^2.1.2",
     "react": "^16.8.5",

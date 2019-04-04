@@ -56,9 +56,9 @@ class Proyectos extends React.Component {
 			this.setState({
 				activeID: id,
 				buttonHover: false,
-				buttonStyle: {
-					color: this.props.data[id].textColor
-				}
+				// buttonStyle: {
+				// 	color: this.props.data[id].textColor
+				// }
 			});
 		}
 	}
